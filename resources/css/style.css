@@ -1,4 +1,8 @@
 /* Universal Styles */
+/* For Visual Purposes */
+* {
+  border: 1px red solid;
+}
 
 html {
   font-family: "Roboto", sans-serif;
@@ -32,6 +36,10 @@ html {
   .main-content {
     top: 2.5625rem;
   }
+}
+
+.toggle {
+  display: none;
 }
 
 /* Header */
