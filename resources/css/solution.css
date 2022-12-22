@@ -1,7 +1,10 @@
 /* Universal Styles */
-
-/* For Visual Purposes */
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    /* For Visual Purposes */
     border: 1px red solid;
   }
   
@@ -46,16 +49,21 @@
     width: 100%;
     border-bottom: solid 1px #c6c1c1;
     background-color: white;
+    z-index: 22;
   }
   
   header .content {
     display: flex;
     align-items: center;
     padding: 1.875rem;
+    height: 1.5625rem;
   }
   
   header .logo {
     flex: 1;
+    font-size: 1.5rem;  
+    font-family: "Roboto Mono", monospace;
+    color: #4A4A4A;
   }
   
   header nav ul {
