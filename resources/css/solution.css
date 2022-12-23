@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* For Visual Purposes */
-    /*border: 1px red solid; */
+    border: 1px red solid;
   }
   
   html {
@@ -66,7 +66,7 @@
     display: flex;
     align-items: center;
     padding: 1.875rem;
-    height: 1.5625rem;
+    height: 5.3125rem;
   }
   
   header .logo {
@@ -151,13 +151,20 @@
     justify-content: flex-start;
     align-items: flex-start;
     height: 43.5rem;
+    background-image: url("../images/banner-landingpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   
   #sign-up-cta {
-    padding: 0 5rem 2.5rem 5rem;
+    padding: 2rem 5rem 3.5rem 5rem;
     border: solid 1px #979797;
     border-radius: 4px;
     background-color: #9dc20b;
+    margin-top: 10.625rem;
+    margin-bottom: 10.625rem;
+    margin-left: 6.25rem;
   }
   
   #sign-up-cta .content {
@@ -191,8 +198,18 @@
   }
   
   #sign-up-cta .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 25.5rem;
+    background-color: #4A4A4A;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: "Roboto";
     margin-top: 1.625rem;
-    padding: 1.25rem 7.25rem;
   }
   
   @media only screen and (max-width: 760px) {
