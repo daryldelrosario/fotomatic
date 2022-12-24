@@ -1,11 +1,14 @@
 /* Universal Styles */
 
-/* For Visual Purposes */
-/*
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* For Visual Purposes */
   border: 1px red solid;
 }
-*/
+
 
 html {
   font-family: "Roboto", sans-serif;
@@ -14,11 +17,21 @@ html {
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+  top: 5.3125rem; /* To offset for fixed header. ~85px*/
 }
 
 .center {
   text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
@@ -35,9 +48,10 @@ html {
   display: block;
 }
 
+/* Tablet Portrait Media */
 @media only screen and (max-width: 760px) {
   .main-content {
-    top: 2.5625rem;
+    top: 2.5625rem; /* ~41px */
   }
 }
 
@@ -48,6 +62,9 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  top: 0;
+  z-index: 33;
+  height: 5.3125rem; /*~85px*/
 }
 
 header .content {
@@ -58,6 +75,9 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-size: 1.5rem /*~24px*/;
+  font-family: "Roboto Mono", sans-serif;
+  text-decoration: none;
 }
 
 header nav ul {
@@ -66,6 +86,7 @@ header nav ul {
 
 nav li {
   padding-left: 3.5rem;
+  list-style-type: none;
 }
 
 nav a {
@@ -73,10 +94,11 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 header .icon {
-  width: 1rem;
+  width: 2.5rem;
   padding-left: .75rem;
 }
 
@@ -84,6 +106,7 @@ header .mobile {
   display: none;
 }
 
+/* Tablet Portrait Media */
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
@@ -168,6 +191,7 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
+/* Tablet Portrait Media */
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
@@ -200,6 +224,7 @@ header .mobile {
   }
 }
 
+/* Mobile Media */
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
@@ -250,6 +275,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
+/* Tablet Landscape Media */
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -263,6 +289,7 @@ header .mobile {
   }
 }
 
+/* Table Portrait Media */
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
@@ -305,6 +332,7 @@ header .mobile {
   padding: 0 1%;
 }
 
+/* Tablet Portrait Media */
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -358,6 +386,7 @@ header .mobile {
   height: 1.875rem;
 }
 
+/* Tablet Portrait Media */
 @media only screen and (max-width: 760px) {
   #quotes-section content {
     padding: 1.875rem .625rem;
@@ -392,6 +421,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
+/* Tablet Portrait Media */
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
