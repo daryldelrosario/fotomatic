@@ -261,6 +261,9 @@ header .mobile {
 #features-section {
   display: grid;
   grid-template-rows: 64px 635px 46px;
+  background-color: lightgrey;
+  padding: 0 5%;
+  column-gap: 38px;
   /*
   display: flex;
   justify-content: space-between;
@@ -271,6 +274,7 @@ header .mobile {
 
 .feature {
   grid-row: 2 / span 1;
+  background-color: white;
   /*
   flex: 1;
   padding: 2rem;
