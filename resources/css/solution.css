@@ -257,7 +257,6 @@ header .mobile {
 }
 
 /* Features Section */
-
 #features-section {
   display: grid;
   grid-template-rows: 4rem 39.6875rem 4rem; /*~64px 635px 46px*/
