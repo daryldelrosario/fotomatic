@@ -422,11 +422,12 @@ header .mobile {
 }
 
 #quotes-section .content {
+  display: block;
   padding: 5rem 0;
 }
 
 #quotes-section .quote {
-  margin-right: 1.875rem;
+  margin-right: 1.875rem; /*~30px*/
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
@@ -466,7 +467,7 @@ footer {
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-size: .75rem; /*~12px*/
 }
 
 footer .copyright {
