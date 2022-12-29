@@ -13,3 +13,7 @@ Fix a broken version of a responsive website called Fotomatic
 * Responsive to mobile media max-width 450px
 * Responsive to tablet media between 450px and 760px
 * CSS design uses combination of Flexbox and Grid
+* Added nav bar feature to showcase Fotomatic: 
+    * Before Solution via link `Broken`
+    * Solution Page via link `Solution`
+    * Design Spec via link `Design Spec`
