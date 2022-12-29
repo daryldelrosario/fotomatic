@@ -1,12 +1,11 @@
 /* Universal Styles */
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 
   /* For Visual Purposes */
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 
@@ -49,7 +48,7 @@ html {
 }
 
 /* Tablet Portrait Media */
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 455px) and (max-width: 760px) {
   .main-content {
     top: 2.5625rem; /* ~41px */
   }
@@ -111,18 +110,18 @@ header .mobile {
 }
 
 /* Tablet Portrait Media */
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 455px) and (max-width: 760px) {
   header .desktop {
     display: none;
+  }
+
+  header .content {
+    padding: .5rem 0;
   }
 
   header .mobile {
     display: block;
     width: 100%;
-  }
-
-  header .content {
-    padding: .5rem 0;
   }
 
   header .mobile ul {
@@ -209,7 +208,7 @@ header .mobile {
 }
 
 /* Tablet Portrait Media */
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 455px) and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -329,7 +328,7 @@ header .mobile {
 }
 
 /* Table Portrait Media */
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 455px) and (max-width: 760px) {
   #features-section {
     flex-flow: column;
     padding: 0;
@@ -342,7 +341,6 @@ header .mobile {
 }
 
 /* Filters Section */
-
 #filters-section {
   padding: 4rem 0; /*~64px*/
   background-color: #4a4a4a;
@@ -384,7 +382,7 @@ header .mobile {
 }
 
 /* Tablet Portrait Media */
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 455px) and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -439,7 +437,7 @@ header .mobile {
 }
 
 /* Tablet Portrait Media */
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 455px) and (max-width: 760px) {
   #quotes-section content {
     padding: 1.875rem .625rem;
   }
